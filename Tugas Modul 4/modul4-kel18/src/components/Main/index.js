@@ -27,7 +27,7 @@ const quotes = [
   },
 ];
 
-export default function App(props) {
+export default function Main(props) {
   const { tema } = props;
 
   const [contacts, setContacts] = useState([]);
