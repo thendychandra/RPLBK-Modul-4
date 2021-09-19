@@ -46,9 +46,10 @@ export default function Context() {
 }
 
 function Content(props) {
+  const theme = useContext(ThemeContext);
   return (
     <div>
-      <Text tema={props.tema} />
+      <Text tema={theme.tema} />
     </div>
   );
 }
