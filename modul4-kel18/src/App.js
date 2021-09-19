@@ -10,7 +10,7 @@ export default function App() {
     <BrowserRouter>
       <header>
         <div className="title">
-          <p>Kelompok 18</p>
+          <p>- Kelompok 18 -</p>
         </div>
         <nav>
           <Link className="text" to="/">
